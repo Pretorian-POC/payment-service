@@ -35,7 +35,7 @@ jobs:
           path: "."
           format: "sarif"
           output: "results/"
-          console_output: "table"
+          console_output: "cli"
 
       - name: Guardar resultados SARIF
         if: always()
