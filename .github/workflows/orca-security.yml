@@ -63,6 +63,8 @@ jobs:
           output: "results/"
           console_output: "table"
           dependency_tree: true   # muestra de qué dependencia directa viene cada paquete vulnerable
+          exceptions_filepath: ".orca-exceptions.yml"
+          hide_skipped_vulnerabilities: false
 
       - name: Guardar resultados SARIF
         if: always()
