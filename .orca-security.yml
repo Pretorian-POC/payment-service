@@ -1,0 +1,4 @@
+vulnerabilities:
+  excluded_cves:
+    - id: "CVE-2022-1471"
+      expiration: "2026-12-31"
